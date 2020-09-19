@@ -1,0 +1,83 @@
+[
+  {
+    "id": "1",
+    "navName": "系统管理",
+    "icon": "el-icon-takeaway-box",
+    "children": [
+      {
+        "parentId": "1",
+        "title": "账号管理",
+        "path": "/AccountManager",
+        "name": "AccountManager",
+        "icon": "el-icon-monitor",
+        "show": true,
+        "children": [
+          {
+            "keys": "account_add"
+          },
+          {
+            "keys": "account_update"
+          },
+          {
+            "keys": "account_batchDelete"
+          },
+          {
+            "keys": "account_edit"
+          },
+          {
+            "keys": "account_delete"
+          },
+          {
+            "keys": "account_detail"
+          }
+        ]
+      },
+      {
+        "parentId": "1",
+        "title": "账号详情",
+        "path": "/AccountDetail",
+        "name": "AccountDetail",
+        "show": false
+      },
+      {
+        "parentId": "1",
+        "title": "参数管理",
+        "path": "/ParamsManager",
+        "name": "ParamsManager",
+        "icon": "el-icon-brush",
+        "show": true
+      },
+      {
+        "parentId": "1",
+        "title": "任务管理",
+        "path": "/TaskManager",
+        "name": "TaskManager",
+        "icon": "el-icon-trophy",
+        "show": true,
+        "children": [
+          {
+            "keys": "task_add"
+          },
+          {
+            "keys": "task_delete"
+          },
+          {
+            "keys": "task_start"
+          },
+          {
+            "keys": "task_stop"
+          },
+          {
+            "keys": "task_batchDelete"
+          },
+          {
+            "keys": "task_edit"
+          },
+          {
+            "keys": "task_detail"
+          }
+        ]
+      }
+    ]
+  }
+]
